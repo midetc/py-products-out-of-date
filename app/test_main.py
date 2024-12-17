@@ -31,7 +31,7 @@ class TestOutdatedProducts:
                 datetime.date(2022, 2, 5),
             ),
             (
-                [],[], datetime.date(2022, 2, 5)
+                [], [], datetime.date(2022, 2, 5)
             )
         ]
     )
@@ -47,4 +47,3 @@ class TestOutdatedProducts:
         result = outdated_products(input_products)
         assert result == expected_expired_products, \
             f"Expected: {expected_expired_products}, Got: {result}"
-
