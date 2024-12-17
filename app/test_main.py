@@ -14,7 +14,7 @@ class TestOutdatedProducts:
                         datetime.date(2022, 2, 10),
                         "price": 600},
                     {"name": "chicken", "expiration_date":
-                        datetime.date(2022, 2, 5),
+                        datetime.date(2022, 2, 19),
                         "price": 120},
                 ],
                 ["salmon", "chicken"],
